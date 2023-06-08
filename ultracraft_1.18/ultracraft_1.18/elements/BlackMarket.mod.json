@@ -1,0 +1,61 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bm_head",
+    "enableBody": true,
+    "textureBody": "bm_body",
+    "enableLeggings": true,
+    "textureLeggings": "bm_legs",
+    "enableBoots": false,
+    "textureBoots": "bm_boots",
+    "onHelmetTick": {
+      "name": "V1HelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "armorTextureFile": "placeholder_",
+    "helmetName": "Black Market Head",
+    "bodyName": "Black Market Body",
+    "leggingsName": "Black Market Legs",
+    "bootsName": "Black Market Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelv1_head",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "black_market.png",
+    "bodyModelName": "Modelv1_body",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "black_market.png",
+    "leggingsModelName": "Modelv1_legs",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "black_market.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 1000,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 20,
+    "toughness": 0.2,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

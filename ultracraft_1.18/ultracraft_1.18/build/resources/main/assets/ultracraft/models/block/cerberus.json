@@ -1,0 +1,8 @@
+{
+  "parent": "ultracraft:custom/cerberus",
+  "textures": {
+    "all": "ultracraft:blocks/cerberus",
+    "particle": "ultracraft:blocks/cerberus",
+    "0": "ultracraft:blocks/cerberus"
+  }
+}

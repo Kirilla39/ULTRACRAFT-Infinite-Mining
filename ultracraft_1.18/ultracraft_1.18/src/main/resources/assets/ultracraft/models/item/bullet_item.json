@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/bullet",
+  "textures": {
+    "0": "ultracraft:blocks/blue_bullet",
+    "particle": "ultracraft:items/bullet_item"
+  }
+}

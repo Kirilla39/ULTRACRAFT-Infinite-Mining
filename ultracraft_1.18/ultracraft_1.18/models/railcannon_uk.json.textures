@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "railcannon_electric"
+      },
+      "name": "default"
+    },
+    "malicious": {
+      "map": {
+        "0": "railcannon_malicious"
+      },
+      "name": "malicious"
+    },
+    "screwdriver": {
+      "map": {
+        "0": "railcannon_screwdriver"
+      },
+      "name": "screwdriver"
+    }
+  }
+}

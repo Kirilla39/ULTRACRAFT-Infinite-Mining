@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/railcannon_uk",
+  "textures": {
+    "0": "ultracraft:blocks/railcannon_screwdriver",
+    "particle": "ultracraft:items/railcannon"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rocket_launcher_fr"
+      },
+      "name": "default"
+    }
+  }
+}

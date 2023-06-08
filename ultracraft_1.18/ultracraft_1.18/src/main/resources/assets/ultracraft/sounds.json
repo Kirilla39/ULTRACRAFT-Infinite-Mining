@@ -1,0 +1,270 @@
+{
+  "rev_charge_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:rev_charge_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "rev_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:rev_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "slide": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:slide",
+        "stream": false
+      }
+    ]
+  },
+  "railcannon_electric_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:railcannon_blue_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "shotgun_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:shotgun_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "core_eject": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:core_eject",
+        "stream": false
+      }
+    ]
+  },
+  "coin_flip": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:coin_flip",
+        "stream": false
+      }
+    ]
+  },
+  "nailgun_shot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:nailgun_shot",
+        "stream": false
+      }
+    ]
+  },
+  "nailgun_shot_overheat": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:nailgun_shot_overheat",
+        "stream": false
+      }
+    ]
+  },
+  "nailgun_spin": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:nailgun_spin",
+        "stream": false
+      }
+    ]
+  },
+  "shotgun_pump": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:shotgun_pump",
+        "stream": false
+      }
+    ]
+  },
+  "railcannon_red_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:railcannon_red_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "something_wicked": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:something_wicked",
+        "stream": false
+      }
+    ]
+  },
+  "rocket_launcher_shot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:rocket_launcher_shot",
+        "stream": false
+      }
+    ]
+  },
+  "rocket_launcher_freeze": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:rocket_launcher_freeze",
+        "stream": false
+      }
+    ]
+  },
+  "bonus_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:bonus_break",
+        "stream": false
+      }
+    ]
+  },
+  "railcannon_green_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:railcannon_green_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "enrage": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:enrage",
+        "stream": false
+      }
+    ]
+  },
+  "chainsaw_swing": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:chainsaw_swing",
+        "stream": false
+      }
+    ]
+  },
+  "mp_crush": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_crush",
+        "stream": false
+      }
+    ]
+  },
+  "mp_hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "mp_die": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_die_1",
+        "stream": false
+      },
+      {
+        "name": "ultracraft:mp_die_2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_judgement": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_judgement_1",
+        "stream": false
+      },
+      {
+        "name": "ultracraft:mp_judgement_2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_prepare": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_prepare_1",
+        "stream": false
+      },
+      {
+        "name": "ultracraft:mp_prepare_2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_thyend": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_thyend_1",
+        "stream": false
+      },
+      {
+        "name": "ultracraft:mp_thyend_2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_weak": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_weak",
+        "stream": false
+      }
+    ]
+  },
+  "mp_death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:mp_death",
+        "stream": false
+      }
+    ]
+  },
+  "gab_fuck": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultracraft:gab_fuck",
+        "stream": false
+      }
+    ]
+  }
+}

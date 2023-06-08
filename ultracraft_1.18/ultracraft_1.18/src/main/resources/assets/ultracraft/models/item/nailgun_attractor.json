@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/nailgun_uk",
+  "textures": {
+    "0": "ultracraft:blocks/nailgun_attractor",
+    "particle": "ultracraft:items/nailgun"
+  }
+}

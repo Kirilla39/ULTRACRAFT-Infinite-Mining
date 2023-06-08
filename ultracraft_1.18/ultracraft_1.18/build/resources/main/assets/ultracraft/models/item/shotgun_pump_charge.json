@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/shotgun_uk",
+  "textures": {
+    "0": "ultracraft:blocks/shotgun_pc",
+    "particle": "ultracraft:items/shotgun"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "shotgun_ce"
+      },
+      "name": "default"
+    },
+    "pump_charge": {
+      "map": {
+        "0": "shotgun_pc"
+      },
+      "name": "pump_charge"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "motor_sword",
+    "customModelName": "motor_sword:default",
+    "name": "Motor Sword",
+    "specialInfo": [
+      "you know who else uses motor-sword with a gun?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ULTRACRAFT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 8,
+    "damageVsEntity": 4.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "MotorSwordEntitySwings"
+    }
+  }
+}

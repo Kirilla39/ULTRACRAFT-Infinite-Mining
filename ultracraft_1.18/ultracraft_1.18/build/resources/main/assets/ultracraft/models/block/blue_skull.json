@@ -1,0 +1,8 @@
+{
+  "parent": "ultracraft:custom/skull",
+  "textures": {
+    "all": "ultracraft:blocks/blue_skull",
+    "particle": "ultracraft:blocks/blue_skull",
+    "0": "ultracraft:blocks/blue_skull"
+  }
+}

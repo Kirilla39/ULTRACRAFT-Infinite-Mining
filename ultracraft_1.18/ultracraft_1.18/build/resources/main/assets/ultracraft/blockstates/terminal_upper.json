@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultracraft:block/terminal_upper"
+    },
+    "facing=east": {
+      "model": "ultracraft:block/terminal_upper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultracraft:block/terminal_upper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultracraft:block/terminal_upper",
+      "y": 270
+    }
+  }
+}

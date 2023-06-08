@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/motor_sword",
+  "textures": {
+    "0": "ultracraft:blocks/sw_sword_enraged",
+    "particle": "ultracraft:items/motor_sword"
+  }
+}

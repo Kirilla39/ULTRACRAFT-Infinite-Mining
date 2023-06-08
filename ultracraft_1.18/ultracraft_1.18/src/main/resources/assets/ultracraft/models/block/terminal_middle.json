@@ -1,0 +1,8 @@
+{
+  "parent": "ultracraft:custom/terminal_mid",
+  "textures": {
+    "all": "ultracraft:blocks/terminal_mid",
+    "particle": "ultracraft:blocks/terminal_mid",
+    "0": "ultracraft:blocks/terminal_mid"
+  }
+}

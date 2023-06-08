@@ -1,0 +1,61 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "v1_head",
+    "enableBody": true,
+    "textureBody": "v1_body",
+    "enableLeggings": true,
+    "textureLeggings": "v1_legs",
+    "enableBoots": false,
+    "textureBoots": "v1_boots",
+    "onHelmetTick": {
+      "name": "V1HelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "armorTextureFile": "placeholder_",
+    "helmetName": "V1 Head",
+    "bodyName": "V1 Body",
+    "leggingsName": "V1 Leggings",
+    "bootsName": "V1 Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelv1_head",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "v1.png",
+    "bodyModelName": "Modelv1_body",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "v1.png",
+    "leggingsModelName": "Modelv1_legs",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "v1.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 1000,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

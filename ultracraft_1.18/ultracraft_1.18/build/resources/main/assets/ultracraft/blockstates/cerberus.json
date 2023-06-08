@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultracraft:block/cerberus"
+    },
+    "facing=east": {
+      "model": "ultracraft:block/cerberus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultracraft:block/cerberus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultracraft:block/cerberus",
+      "y": 270
+    }
+  }
+}

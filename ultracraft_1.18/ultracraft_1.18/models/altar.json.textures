@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "0": "red_altar"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "0": "blue_altar"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultracraft:block/red_skull"
+    },
+    "facing=east": {
+      "model": "ultracraft:block/red_skull",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultracraft:block/red_skull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultracraft:block/red_skull",
+      "y": 270
+    }
+  }
+}

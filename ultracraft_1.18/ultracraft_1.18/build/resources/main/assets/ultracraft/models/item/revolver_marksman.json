@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/revolver_uk",
+  "textures": {
+    "0": "ultracraft:blocks/revolver_marksman",
+    "particle": "ultracraft:items/revolver"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "revolver_piercer"
+      },
+      "name": "default"
+    },
+    "marksman": {
+      "map": {
+        "0": "revolver_marksman"
+      },
+      "name": "marksman"
+    }
+  }
+}

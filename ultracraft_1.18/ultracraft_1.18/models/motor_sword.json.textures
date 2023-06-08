@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sw_sword"
+      },
+      "name": "default"
+    },
+    "enraged": {
+      "map": {
+        "0": "sw_sword_enraged"
+      },
+      "name": "enraged"
+    },
+    "tundra": {
+      "map": {
+        "0": "sw_sword_tundra"
+      },
+      "name": "tundra"
+    }
+  }
+}

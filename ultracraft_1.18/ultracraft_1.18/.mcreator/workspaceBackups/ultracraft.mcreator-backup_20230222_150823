@@ -1,0 +1,2393 @@
+{
+  "mod_elements": [
+    {
+      "name": "V1",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_1",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "BulletItem",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_item"
+    },
+    {
+      "name": "V2",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_2",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "V1Morph",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_1_morph"
+    },
+    {
+      "name": "V1HelmetTickEvent",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_1_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "V1MorphRightclicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_1_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "V2Morph",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_2_morph"
+    },
+    {
+      "name": "V2MorphRightclicked",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_2_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinosPrimeArmr",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minos_prime_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "MinosMorphRightclicked",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minos_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinosMorph",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minos_morph"
+    },
+    {
+      "name": "Icon",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icon"
+    },
+    {
+      "name": "ULTRACRAFT",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultracraft"
+    },
+    {
+      "name": "BlueSkull",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_skull"
+    },
+    {
+      "name": "BlueAltar",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_altar"
+    },
+    {
+      "name": "BlueAltarP",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_altar_p"
+    },
+    {
+      "name": "BlueAltarSkullPlaced",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_altar_skull_placed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedSkull",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_skull"
+    },
+    {
+      "name": "RedAltar",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_altar"
+    },
+    {
+      "name": "RedAltarP",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_altar_p"
+    },
+    {
+      "name": "RedAltarSkullPlaced",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_altar_skull_placed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BulletTexture",
+      "type": "rangeditem",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_texture"
+    },
+    {
+      "name": "RevolverPiercerRightclicked",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_piercer_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RevolverPiercerLeftClick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_piercer_left_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RevBlueParticle",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rev_blue_particle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RevolverPiercer",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_piercer"
+    },
+    {
+      "name": "RailcannonElectric",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railcannon_electric"
+    },
+    {
+      "name": "Railbullet",
+      "type": "rangeditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railbullet"
+    },
+    {
+      "name": "RailbulletFlyingTick",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railbullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RailcannonElectricRightclicked",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railcannon_electric_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TerminalLower",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminal_lower"
+    },
+    {
+      "name": "TerminalMiddle",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminal_middle"
+    },
+    {
+      "name": "TerminalUpper",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminal_upper"
+    },
+    {
+      "name": "Cerberus",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cerberus"
+    },
+    {
+      "name": "ShotgunCoreEject",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_core_eject"
+    },
+    {
+      "name": "BulletFlyingTick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "rangeditem",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet"
+    },
+    {
+      "name": "ShotgunSwingsItem",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShotgunCoreEjectRightclicked",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_core_eject_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RevolverMarksman",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_marksman"
+    },
+    {
+      "name": "RevolverMarksmanRightclicked",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_marksman_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NailgunOverheat",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailgun_overheat"
+    },
+    {
+      "name": "NailgunOverheatSwings",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailgun_overheat_swings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NailgunOverheatRightclicked",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailgun_overheat_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShotgunPumpCharge",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_pump_charge"
+    },
+    {
+      "name": "ShotgunPumpChargeRightclicked",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_pump_charge_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinosPrimeHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minos_prime_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShotgunPumpChargeSwings",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_pump_charge_swings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RevolverMarksmanSwingsItem",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolver_marksman_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SomethingWicked",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "something_wicked"
+    },
+    {
+      "name": "RailcannonMalicious",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railcannon_malicious"
+    },
+    {
+      "name": "RailcannonMaliciousRightclicked",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railcannon_malicious_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherFreeze",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_freeze"
+    },
+    {
+      "name": "RocketLauncherFreezeRightclicked",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_freeze_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NailgunAttractor",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailgun_attractor"
+    },
+    {
+      "name": "NailgunAttractorSwings",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailgun_attractor_swings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "V1MorphCraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_1_morph_craft"
+    },
+    {
+      "name": "V2MorphCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_2_morph_craft"
+    },
+    {
+      "name": "BlackMarketMorph",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_market_morph"
+    },
+    {
+      "name": "BlackMarket",
+      "type": "armor",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_market",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "BlackMarketMorphRightclicked",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_market_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RailcannonScrewdriver",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railcannon_screwdriver"
+    },
+    {
+      "name": "HealBulletProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_bullet_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealBullet",
+      "type": "rangeditem",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_bullet"
+    },
+    {
+      "name": "RailcannonScrewdriverRightclicked",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railcannon_screwdriver_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MindflayerArmr",
+      "type": "armor",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "MindflayerMorph",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_morph"
+    },
+    {
+      "name": "MindflayerMorphRightclicked",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MindflayerArmorTickEvent",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_armor_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordsmachineArmr",
+      "type": "armor",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "SwordsmachineMorph",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_morph"
+    },
+    {
+      "name": "SwordsmachineMorphRightclicked",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword"
+    },
+    {
+      "name": "SwordsmachineArmrTickEvent",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_armr_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordsmachineEnragedArmr",
+      "type": "armor",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_enraged_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "MindflayerEnragedArmr",
+      "type": "armor",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_enraged_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "SwordsmachineEnragedMorph",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_enraged_morph"
+    },
+    {
+      "name": "SwordsmachineEnrMorphRightclicked",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_enr_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordsmachineEnragedArmrTickEvent",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_enraged_armr_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MindflayerEnrMorphRightclicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_enr_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MindflayerEnragedMorph",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_enraged_morph"
+    },
+    {
+      "name": "MindflayerEnragedArmrTickEvent",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindflayer_enraged_armr_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordsmachineTundraArmr",
+      "type": "armor",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_tundra_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "SwordsmachineTundraArmrTickEvent",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_tundra_armr_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SwordsmachineTundraMorph",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_tundra_morph"
+    },
+    {
+      "name": "SwordsmachineTundraMorphRightclick",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordsmachine_tundra_morph_rightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSwordEnraged",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_enraged"
+    },
+    {
+      "name": "MotorSwordTundra",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_tundra"
+    },
+    {
+      "name": "MotorSwordFront",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_front"
+    },
+    {
+      "name": "MotorSwordEntitySwings",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_entity_swings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSwordFrontToolInHandTick",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_front_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSwordEnragedFront",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_enraged_front"
+    },
+    {
+      "name": "MotorSwordEnragedFrontInHandTick",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_enraged_front_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSwordEnragedSwingsItem",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_enraged_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSwordTundraFront",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_tundra_front"
+    },
+    {
+      "name": "MotorSwordTundraSwingsItem",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_tundra_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MotorSwordTundraFrontToolInHand",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor_sword_tundra_front_tool_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RailbulletExpl",
+      "type": "rangeditem",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railbullet_expl"
+    },
+    {
+      "name": "RailbulletExplBlows",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "railbullet_expl_blows",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GabrielArmr",
+      "type": "armor",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "GabrielMorph",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_morph"
+    },
+    {
+      "name": "GabrielArmrHelmetEvent",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_armr_helmet_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GabrielMorphRightclicked",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinosPrime",
+      "type": "livingentity",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minos_prime"
+    },
+    {
+      "name": "MinosPrimeOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minos_prime_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GabrielEnragedArmr",
+      "type": "armor",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_enraged_armr",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "GabrielEnragedArmrHelmetEvent",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_enraged_armr_helmet_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GabrielEnragedMorph",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_enraged_morph"
+    },
+    {
+      "name": "GabrielEnragedMorphRightclicked",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gabriel_enraged_morph_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "modnameTime",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "rev_charge_shoot",
+      "files": [
+        "rev_charge_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rev_shoot",
+      "files": [
+        "rev_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "slide",
+      "files": [
+        "slide"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "railcannon_electric_shoot",
+      "files": [
+        "railcannon_blue_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shotgun_shoot",
+      "files": [
+        "shotgun_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "core_eject",
+      "files": [
+        "core_eject"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "coin_flip",
+      "files": [
+        "coin_flip"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nailgun_shot",
+      "files": [
+        "nailgun_shot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nailgun_shot_overheat",
+      "files": [
+        "nailgun_shot_overheat"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nailgun_spin",
+      "files": [
+        "nailgun_spin"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shotgun_pump",
+      "files": [
+        "shotgun_pump"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "railcannon_red_shoot",
+      "files": [
+        "railcannon_red_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "something_wicked",
+      "files": [
+        "something_wicked"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rocket_launcher_shot",
+      "files": [
+        "rocket_launcher_shot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rocket_launcher_freeze",
+      "files": [
+        "rocket_launcher_freeze"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bonus_break",
+      "files": [
+        "bonus_break"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "railcannon_green_shoot",
+      "files": [
+        "railcannon_green_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "enrage",
+      "files": [
+        "enrage"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "chainsaw_swing",
+      "files": [
+        "chainsaw_swing"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_crush",
+      "files": [
+        "mp_crush"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_hurt",
+      "files": [
+        "mp_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_die",
+      "files": [
+        "mp_die_1",
+        "mp_die_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_judgement",
+      "files": [
+        "mp_judgement_1",
+        "mp_judgement_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_prepare",
+      "files": [
+        "mp_prepare_1",
+        "mp_prepare_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_thyend",
+      "files": [
+        "mp_thyend_1",
+        "mp_thyend_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_weak",
+      "files": [
+        "mp_weak"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mp_death",
+      "files": [
+        "mp_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gab_fuck",
+      "files": [
+        "gab_fuck"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.ultracraft.revolver_marksman": "Revolver [MARKSMAN]",
+      "item.ultracraft.bullet_texture": "Bullet Texture",
+      "item.ultracraft.nailgun_overheat": "Nailgun [OVERHEAT]",
+      "item.ultracraft.motor_sword_front": "Motor Sword",
+      "subtitles.shotgun_pump": "",
+      "item.ultracraft.gabriel_enraged_morph": "Gabriel Enraged Morph",
+      "item.ultracraft.motor_sword": "Motor Sword",
+      "item.ultracraft.swordsmachine_tundra_morph": "Swordsmachine Tundra Morph",
+      "item.ultracraft.minos_prime_spawn_egg": "Minos Prime Spawn Egg",
+      "subtitles.railcannon_electric_shoot": "",
+      "item.ultracraft.icon": "Icon",
+      "block.ultracraft.red_skull": "Red Skull",
+      "subtitles.chainsaw_swing": "",
+      "item.ultracraft.nailgun_attractor": "Nailgun [ATTRACTOR]",
+      "block.ultracraft.blue_altar": "Blue Altar",
+      "subtitles.railcannon_red_shoot": "",
+      "item.ultracraft.v_2_boots": "V2 Boots",
+      "subtitles.shotgun_shoot": "",
+      "item.ultracraft.v_2_helmet": "V2 Helmet",
+      "subtitles.something_wicked": "",
+      "item.ultracraft.something_wicked_spawn_egg": "Something Wicked Spawn Egg",
+      "item.ultracraft.mindflayer_enraged_morph": "Mindflayer Enraged Morph",
+      "item.ultracraft.gabriel_armr_boots": "Gabriel Boots",
+      "subtitles.rocket_launcher_freeze": "",
+      "subtitles.mp_prepare": "",
+      "subtitles.nailgun_shot": "",
+      "subtitles.coin_flip": "",
+      "subtitles.nailgun_shot_overheat": "",
+      "item.ultracraft.railbullet_expl": "Railbullet Expl",
+      "block.ultracraft.terminal_upper": "Terminal Upper",
+      "item.ultracraft.mindflayer_morph": "Mindflayer Morph",
+      "item.ultracraft.motor_sword_enraged_front": "Motor Sword Enraged",
+      "item.ultracraft.swordsmachine_enraged_armr_leggings": "Swordsmachine Enraged Legs",
+      "subtitles.mp_thyend": "",
+      "item.ultracraft.minos_prime_armr_chestplate": "Minos Prime Body",
+      "item.ultracraft.motor_sword_enraged": "Motor Sword Enraged",
+      "item.ultracraft.gabriel_enraged_armr_chestplate": "Gabriel Enraged Body",
+      "item.ultracraft.swordsmachine_enraged_armr_chestplate": "Swordsmachine Enraged Body",
+      "item.ultracraft.bullet_item": "Bullet Item",
+      "subtitles.rocket_launcher_shot": "",
+      "subtitles.core_eject": "",
+      "item.ultracraft.revolver_piercer": "Revolver [PIERCER]",
+      "item.ultracraft.heal_bullet": "HealBullet",
+      "subtitles.mp_hurt": "",
+      "subtitles.gab_fuck": "",
+      "block.ultracraft.terminal_lower": "Terminal Lower",
+      "item.ultracraft.gabriel_enraged_armr_boots": "Gabriel Enraged Boots",
+      "item.ultracraft.railcannon_screwdriver": "Railcannon [SCREWDRIVER]",
+      "item.ultracraft.mindflayer_armr_leggings": "Mindflayer Legs",
+      "item.ultracraft.swordsmachine_enraged_armr_boots": "Swordsmachine Enraged Armr Boots",
+      "subtitles.rev_shoot": "",
+      "subtitles.nailgun_spin": "",
+      "item.ultracraft.v_1_leggings": "V1 Leggings",
+      "block.ultracraft.terminal_middle": "Terminal Middle",
+      "item.ultracraft.v_1_morph": "V1 Morph",
+      "item.ultracraft.rocket_launcher_freeze": "Rocket Launcher [FREEZEFRAME]",
+      "item.ultracraft.swordsmachine_armr_boots": "Swordsmachine Boots",
+      "item.ultracraft.mindflayer_armr_chestplate": "Mindflayer Body",
+      "block.ultracraft.blue_altar_p": "Blue Altar",
+      "subtitles.slide": "",
+      "item.ultracraft.mindflayer_enraged_armr_chestplate": "Mindflayer Enraged Body",
+      "item.ultracraft.bullet": "Bullet",
+      "subtitles.railcannon_green_shoot": "",
+      "item.ultracraft.motor_sword_tundra": "Motor Sword Tundra",
+      "item.ultracraft.motor_sword_tundra_front": "Motor Sword Tundra",
+      "item.ultracraft.black_market_helmet": "Black Market Head",
+      "block.ultracraft.red_altar_p": "Red Altar",
+      "item.ultracraft.mindflayer_enraged_armr_leggings": "Mindflayer Enraged Legs",
+      "item.ultracraft.swordsmachine_armr_leggings": "Swordsmachine Legs",
+      "item.ultracraft.gabriel_enraged_armr_leggings": "Gabriel Enraged Legs",
+      "item.ultracraft.gabriel_armr_chestplate": "Gabriel Body",
+      "item.ultracraft.mindflayer_enraged_armr_boots": "Mindflayer Enraged Armr Boots",
+      "item.ultracraft.gabriel_armr_leggings": "Gabriel Legs",
+      "subtitles.mp_death": "",
+      "item.ultracraft.shotgun_pump_charge": "Shotgun [PUMP CHARGE]",
+      "item.ultracraft.swordsmachine_armr_helmet": "Swordsmachine Head",
+      "item.ultracraft.swordsmachine_tundra_armr_chestplate": "Swordsmachine Tundra Armr Body",
+      "item.ultracraft.gabriel_enraged_armr_helmet": "Gabriel Enraged Helmet",
+      "item.ultracraft.minos_morph": "Minos Morph",
+      "item.ultracraft.black_market_leggings": "Black Market Legs",
+      "subtitles.bonus_break": "",
+      "subtitles.mp_die": "",
+      "item.ultracraft.railcannon_malicious": "Railcannon [MALICIOUS]",
+      "item.ultracraft.minos_prime_armr_leggings": "Minos Prime Legs",
+      "item.ultracraft.railbullet": "Railbullet",
+      "item.ultracraft.swordsmachine_enraged_morph": "Swordsmachine Enraged Morph",
+      "item.ultracraft.mindflayer_armr_helmet": "Mindflayer Head",
+      "item.ultracraft.gabriel_armr_helmet": "Gabriel Helmet",
+      "item.ultracraft.minos_prime_armr_boots": "Minos Prime Feet",
+      "subtitles.mp_crush": "",
+      "item.ultracraft.swordsmachine_enraged_armr_helmet": "Swordsmachine Enraged Head",
+      "item.ultracraft.v_2_chestplate": "V2 Body",
+      "item.ultracraft.mindflayer_armr_boots": "Mindflayer Armr Boots",
+      "item.ultracraft.minos_prime_armr_helmet": "Minos Prime Head",
+      "item.ultracraft.v_2_leggings": "V2 Leggings",
+      "item.ultracraft.railcannon_electric": "Railcannon [ELECTRIC]",
+      "item.ultracraft.v_2_morph": "V2 Morph",
+      "subtitles.mp_judgement": "",
+      "item.ultracraft.swordsmachine_tundra_armr_helmet": "Swordsmachine Tundra Head",
+      "subtitles.mp_die2": "",
+      "subtitles.enrage": "",
+      "item.ultracraft.mindflayer_enraged_armr_helmet": "Mindflayer Enraged Head",
+      "block.ultracraft.red_altar": "Red Altar",
+      "block.ultracraft.blue_skull": "Blue Skull",
+      "entity.ultracraft.something_wicked": "Something Wicked",
+      "item.ultracraft.black_market_chestplate": "Black Market Body",
+      "item.ultracraft.swordsmachine_tundra_armr_boots": "Swordsmachine Tundra Armr Boots",
+      "entity.ultracraft.minos_prime": "Minos Prime",
+      "item.ultracraft.shotgun_core_eject": "Shotgun [CORE EJECT]",
+      "item.ultracraft.black_market_morph": "Black Market Morph",
+      "item.ultracraft.gabriel_morph": "Gabriel Morph",
+      "item.ultracraft.swordsmachine_tundra_armr_leggings": "Swordsmachine Tundra Armr Leggings",
+      "item.ultracraft.v_1_boots": "V1 Boots",
+      "subtitles.mp_weak": "",
+      "block.ultracraft.cerberus": "Cerberus",
+      "subtitles.rev_charge_shoot": "",
+      "item.ultracraft.v_1_helmet": "V1 Head",
+      "item.ultracraft.swordsmachine_morph": "Swordsmachine Morph",
+      "item.ultracraft.swordsmachine_armr_chestplate": "Swordsmachine Body",
+      "item.ultracraft.black_market_boots": "Black Market Boots",
+      "itemGroup.tabultracraft": "ULTRACRAFT",
+      "item.ultracraft.v_1_chestplate": "V1 Body"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ultracraft",
+    "modName": "ULTRACRAFT Infinite Mining",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ultracraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

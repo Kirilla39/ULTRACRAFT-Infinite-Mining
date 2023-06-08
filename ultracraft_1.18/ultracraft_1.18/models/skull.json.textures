@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "0": "red_skull"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "0": "blue_skull"
+      },
+      "name": "default"
+    }
+  }
+}

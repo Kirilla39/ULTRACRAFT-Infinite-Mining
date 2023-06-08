@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nailgun_attractor"
+      },
+      "name": "default"
+    },
+    "overheat": {
+      "map": {
+        "0": "nailgun_overheat"
+      },
+      "name": "overheat"
+    }
+  }
+}

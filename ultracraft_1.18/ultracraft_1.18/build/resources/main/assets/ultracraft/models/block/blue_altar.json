@@ -1,0 +1,8 @@
+{
+  "parent": "ultracraft:custom/altar",
+  "textures": {
+    "all": "ultracraft:blocks/blue_altar",
+    "particle": "ultracraft:blocks/blue_altar",
+    "0": "ultracraft:blocks/blue_altar"
+  }
+}

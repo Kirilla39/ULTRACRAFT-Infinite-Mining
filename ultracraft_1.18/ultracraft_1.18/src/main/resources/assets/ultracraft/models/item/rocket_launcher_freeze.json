@@ -1,0 +1,7 @@
+{
+  "parent": "ultracraft:custom/rocket_launcher",
+  "textures": {
+    "0": "ultracraft:blocks/rocket_launcher_fr",
+    "particle": "ultracraft:items/rocket_launcher"
+  }
+}

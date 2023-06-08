@@ -1,0 +1,61 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "swordsmachine_head",
+    "enableBody": true,
+    "textureBody": "swordsmachine_body",
+    "enableLeggings": true,
+    "textureLeggings": "swordsmachine_legs",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "SwordsmachineArmrTickEvent"
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "armorTextureFile": "placeholder_",
+    "helmetName": "Swordsmachine Head",
+    "bodyName": "Swordsmachine Body",
+    "leggingsName": "Swordsmachine Legs",
+    "bootsName": "Swordsmachine Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelswordsmachine_head",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "swordsmachine.png",
+    "bodyModelName": "Modelswordsmachine_body",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "swordsmachine.png",
+    "leggingsModelName": "Modelswordsmachine_legs",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "swordsmachine.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 1000,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}
